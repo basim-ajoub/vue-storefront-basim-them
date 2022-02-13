@@ -247,9 +247,10 @@ import {
 
 
 } from '@storefront-ui/vue';
-import BaProductShow from '@storefront-ui/vue/src/components/atoms/BaImgShow/BaImgShow.vue';
-import BaProductCollection from '@storefront-ui/vue/src/components/atoms/BaproductCollection/BaProductCollection.vue';
-import BaInstagramComp from '@storefront-ui/vue/src/components/atoms/BaInstagramComp/BaInstagramComp.vue';
+import BaProductShow from '../@storefront-ui/vue/src/components/atoms/BaImgShow/BaImgShow.vue';
+import BaProductCollection from '../@storefront-ui/vue/src/components/atoms/BaproductCollection/BaProductCollection.vue';
+//import BaInstagramComp from '@storefront-ui/vue/src/components/atoms/BaInstagramComp/BaInstagramComp.vue';
+import BaInstagramComp from '../@storefront-ui/vue/src/components/atoms/BaInstagramComp/BaInstagramComp.vue';
 import InstagramFeed from '~/components/InstagramFeed.vue';
 import RelatedProducts from '~/components/RelatedProducts.vue';
 import { ref, computed, useRoute, useRouter } from '@nuxtjs/composition-api';

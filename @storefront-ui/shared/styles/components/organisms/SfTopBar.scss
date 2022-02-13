@@ -1,0 +1,41 @@
+@import "../../helpers";
+.sf-top-bar {
+  background-color: var(--top-bar-background, var(--c-light));
+  //Start CHange position and location dor language btn
+  top: var(--spacer-3xl);
+
+  //End CHange position and location dor language btn
+  &__container {
+    padding: var(--top-bar-padding, 0 var(--spacer-base));
+    box-sizing: border-box;
+    justify-content: var(--topbar-justify-content, space-between);
+    max-width: var(--sf-topbar-width, 77.5rem);
+    height: var(--top-bar-height, 2.5rem);
+    margin: 0 auto;
+
+
+     //Start CHange position and location dor language btn
+padding-top: 0;
+img{
+margin-left: -38px;
+}//End CHange position and location dor language btn
+    @include font(
+      --bar-font,
+      var(--font-weight--normal),
+      var(--font-size--sm),
+      1.6,
+      var(--font-family--secondary)
+    );
+  }
+  &__container,
+  &__right,
+  &__left,
+  &__center {
+    display: flex;
+    align-items: center;
+
+  }
+  @include for-desktop {
+    --top-bar-padding: 0;
+  }
+}

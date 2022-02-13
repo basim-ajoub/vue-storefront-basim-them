@@ -226,7 +226,7 @@ import { onSSR } from '@vue-storefront/core';
 import LazyHydrate from 'vue-lazy-hydration';
 import cacheControl from './../helpers/cacheControl';
 import CategoryPageHeader from '~/components/CategoryPageHeader';
-import BasemComp from '@storefront-ui/vue/src/components/atoms/basemcomp/BasemComp.vue';
+import BasemComp from '../@storefront-ui/vue/src/components/atoms/basemcomp/BasemComp.vue';
 
 // TODO(addToCart qty, horizontal): https://github.com/vuestorefront/storefront-ui/issues/1606
 export default {

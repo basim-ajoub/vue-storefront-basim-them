@@ -1,0 +1,35 @@
+@import "../../helpers";
+.sf-bar {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--bar-height, 3.125rem);
+  flex: 0 0 var(--bar-height, 3.125rem);
+  padding: var(--bar-padding, 0 var(--spacer-base));
+  //Start Change Login bar Color
+  background-color: var(--bar-background, var(--_c-paige-primary));
+  //End Change Login bar Color
+
+  @include font(
+    --bar-font,
+    var(--font-weight--medium),
+    var(--font-size--base),
+    1.6,
+    var(--font-family--secondary)
+  );
+  &__icon {
+    --icon-width: 0.875rem;
+    padding: 0;
+
+    border: 0;
+    //Start Change Close Btn
+    background: var(--_c-braun-primary);
+    z-index: 20;
+    position: absolute;
+    left: var(--modal-close-right, var(--spacer-sm));
+    top: var(--modal-close-top, 0);
+        //End Change Close Btn
+
+  }
+}

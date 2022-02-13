@@ -145,7 +145,7 @@ import NewsletterModal from "~/components/NewsletterModal.vue";
 import LazyHydrate from "vue-lazy-hydration";
 import { useUiState } from "../composables";
 import cacheControl from "./../helpers/cacheControl";
-import BaDisscount from "@storefront-ui/vue/src/components/molecules/BaDisscount/BaDisscount.vue";
+import BaDisscount from "../@storefront-ui/vue/src/components/molecules/BaDisscount/BaDisscount.vue";
 
 export default {
   name: "Home",

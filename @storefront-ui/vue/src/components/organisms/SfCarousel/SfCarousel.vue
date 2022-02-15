@@ -48,7 +48,7 @@ export default {
       type: Object,
       default: () => ({}),
     },
-    
+
   },
   data() {
     return {
@@ -144,5 +144,5 @@ export default {
 };
 </script>
 <style lang="scss">
-@import "~@storefront-ui/shared/styles/components/organisms/SfCarousel.scss";
+@import "../../../../../shared/styles/components/organisms/SfCarousel.scss";
 </style>

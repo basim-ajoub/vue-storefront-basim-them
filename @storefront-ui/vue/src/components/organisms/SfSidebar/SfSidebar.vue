@@ -211,5 +211,5 @@ export default {
 };
 </script>
 <style lang="scss">
-@import "~@storefront-ui/shared/styles/components/organisms/SfSidebar.scss";
+@import "../../../../../shared/styles/components/organisms/SfSidebar.scss";
 </style>

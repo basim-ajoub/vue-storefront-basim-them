@@ -1,7 +1,6 @@
 <template>
   <div class="basem-comp">
       <div class="offer-field">
-        of
                     <div  v-for="offer in offers" :key="offer.key"  class="box box1">
                           <SfImage class="img-container" :alt="offer.offeralt" :src="offer.offerImgSrc" :width="116" :height="100"></SfImage>
                        <div class="comp-text">
@@ -59,7 +58,7 @@ export default {
 <style lang="scss">
 .basem-comp{
   height:  20rem;
-  width: 100%;
+  width: 98.5% !important;
   color: var(--_c-dark-primary);
   //background: red;
     .offer-field{

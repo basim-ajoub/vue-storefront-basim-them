@@ -85,5 +85,5 @@ export default {
 };
 </script>
 <style lang="scss">
-@import "~@storefront-ui/shared/styles/components/organisms/SfFooter.scss";
+@import "../../../../../shared/styles/components/organisms/SfFooter.scss";
 </style>

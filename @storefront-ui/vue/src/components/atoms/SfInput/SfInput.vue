@@ -196,5 +196,5 @@ export default {
 };
 </script>
 <style lang="scss">
-@import "~@storefront-ui/shared/styles/components/atoms/SfInput.scss";
+@import "../../../../../shared/styles/components/atoms/SfInput.scss";
 </style>

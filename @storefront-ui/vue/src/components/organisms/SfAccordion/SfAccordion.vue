@@ -124,5 +124,5 @@ export default {
 };
 </script>
 <style lang="scss">
-@import "~@storefront-ui/shared/styles/components/organisms/SfAccordion.scss";
+@import "../../../../../shared/styles/components/organisms/SfAccordion.scss";
 </style>

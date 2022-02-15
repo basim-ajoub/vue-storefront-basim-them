@@ -68,5 +68,5 @@ export default {
 };
 </script>
 <style lang="scss">
-@import "~@storefront-ui/shared/styles/components/atoms/SfBreadcrumbs.scss";
+@import "../../../../../shared/styles/components/atoms/SfBreadcrumbs.scss";
 </style>

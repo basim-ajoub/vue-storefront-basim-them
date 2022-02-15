@@ -106,5 +106,5 @@ export default {
 };
 </script>
 <style lang="scss">
-@import "~@storefront-ui/shared/styles/components/atoms/SfBullets.scss";
+@import "../../../../../shared/styles/components/atoms/SfBullets.scss";
 </style>

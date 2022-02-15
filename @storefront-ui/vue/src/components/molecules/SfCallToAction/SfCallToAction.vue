@@ -100,5 +100,5 @@ export default {
 };
 </script>
 <style lang="scss">
-@import "~@storefront-ui/shared/styles/components/molecules/SfCallToAction.scss";
+@import "../../../../../shared/styles/components/molecules/SfCallToAction.scss";
 </style>

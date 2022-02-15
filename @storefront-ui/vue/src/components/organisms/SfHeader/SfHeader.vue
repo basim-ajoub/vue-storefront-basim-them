@@ -39,7 +39,7 @@
             />
           </slot>
           <!--@slot Use this slot to replace default header icons with custom content-->
-          
+
           <slot
             name="header-icons"
             v-bind="{
@@ -317,5 +317,5 @@ export default {
 };
 </script>
 <style lang="scss">
-@import "~@storefront-ui/shared/styles/components/organisms/SfHeader.scss";
+@import "../../../../../shared/styles/components/organisms/SfHeader.scss";
 </style>

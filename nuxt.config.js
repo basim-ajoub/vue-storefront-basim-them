@@ -107,7 +107,7 @@ export default {
     detectBrowserLanguage: false
   },
   styleResources: {
-    scss: [require.resolve('@storefront-ui/shared/styles/_helpers.scss', { paths: [process.cwd()] })]
+    scss: [require.resolve('./@storefront-ui/shared/styles/_helpers.scss', { paths: [process.cwd()] })]
   },
   publicRuntimeConfig: {
     theme

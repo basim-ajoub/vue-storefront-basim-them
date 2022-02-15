@@ -138,7 +138,7 @@ import {
   SfArrow,
   SfCard,
   SfButton,
-} from "@storefront-ui/vue";
+} from "../@storefront-ui/vue";
 import { ref, useContext } from "@nuxtjs/composition-api";
 import InstagramFeed from "~/components/InstagramFeed.vue";
 import NewsletterModal from "~/components/NewsletterModal.vue";

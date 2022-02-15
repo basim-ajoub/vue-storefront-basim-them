@@ -89,12 +89,12 @@ export default {
     },
   },
   methods: {
-    close() { 
+    close() {
       //Start Change in Langauage window Effect
       //End Change in Langauage window Effect
       this.$emit("click:close");
-      
-      
+
+
     },
     keydownHandler(e) {
       if (e.key === "Escape" || e.key === "Esc" || e.keyCode === 27) {
@@ -105,7 +105,7 @@ export default {
 };
 </script>
 <style lang="scss">
-@import "~@storefront-ui/shared/styles/components/molecules/SfBottomModal.scss";
+@import "../../../../../shared/styles/components/molecules/SfBottomModal.scss";
 .sf-bottom-modal{
   //--bottom-modal-background :red;
 }

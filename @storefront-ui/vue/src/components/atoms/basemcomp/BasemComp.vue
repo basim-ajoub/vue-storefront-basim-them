@@ -58,7 +58,7 @@ export default {
 <style lang="scss">
 .basem-comp{
   height:  20rem;
-  width: 98.5% !important;
+  width: 62.8rem !important;
   color: var(--_c-dark-primary);
   //background: red;
     .offer-field{

@@ -3,7 +3,7 @@
   background:red;
 }
 .sf-bottom-modal {
- 
+
   position: var(--bottom-modal-position, fixed);
   width: var(--bottom-modal-width, 100%);
   top: var(--bottom-modal-top);
@@ -14,7 +14,7 @@
  //Start Change In LAnguage Wundow
  //top:  var(--spacer-xl);
  //top: 150px;
- 
+
   //End Change In LAnguage Wundow
   @include for-mobile {
     --characteristic-description-font-weight: var(--font-weight--semibold);
@@ -29,7 +29,7 @@
     box-sizing: border-box;
     position: relative;
     z-index: 1;
-    
+
     padding: var(--bottom-modal-container-padding);
     background: var(--bottom-modal-background, var(--c-white));
     @include font(
@@ -52,9 +52,9 @@
       width: 90%;
 
     //End Change In LAnguage Wundow
-    //Start Motion For Closing and open the window 
+    //Start Motion For Closing and open the window
 
-    //End Motion For Closing and open the window 
+    //End Motion For Closing and open the window
 
 
     }
@@ -79,7 +79,7 @@
     right: var(--spacer-xs);
     @include for-desktop {
       --button-display: flex;
- 
+
 
     }
   }
